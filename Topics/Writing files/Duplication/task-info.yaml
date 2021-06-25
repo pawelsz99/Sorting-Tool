@@ -1,0 +1,34 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    // Write your code here. Do not import any libraries
+    val text = readLine()!!
+    val myFile = File(...)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9717#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:15:12: error: expecting an element
+    import java.io.File
+               ^
+    main.kt:15:15: error: expecting an element
+    import java.io.File
+                  ^
+    main.kt:15:20: error: expecting an element
+    import java.io.File
+                       ^
+    main.kt:15:1: error: unresolved reference: import
+    import java.io.File
+    ^
+    main.kt:22:9: error: unresolved reference: myFile
+            myFile.name != "MyFile.txt" -> "Wrong file name"
+            ^
+    main.kt:23:9: error: unresolved reference: myFile
+            myFile.text != "Yo ho ho! Yo ho ho! " -> "Wrong file context"
+            ^
+  time: Fri, 25 Jun 2021 11:28:59 UTC
+record: -1
